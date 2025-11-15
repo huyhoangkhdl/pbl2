@@ -1,0 +1,28 @@
+# Build directories
+build/
+cmake-build-*/
+_codeql_build_dir/
+_codeql_detected_source_root
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+
+# Compiled binaries
+pbl2
+*.exe
+*.out
+*.app
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
